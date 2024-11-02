@@ -1,0 +1,85 @@
+/* body {
+    background-color: black;
+} */
+
+@font-face {
+	font-family: 'Inter-Bold'; 
+	src: url(assets/fonts/static/Inter-Bold.ttf); 
+}
+
+@font-face {
+	font-family: 'Inter-Regular'; 
+	src: url(assets/fonts/static/Inter-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'Inter-Semibold';
+	src: url(assets/fonts/static/Inter-SemiBold.ttf); 
+}
+
+html {
+    font-family: 'Inter-Regular';
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.main  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 1350px;
+
+   /*  margin-top: 200px; */
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    height: 650px;
+    width: 500px;
+    border-radius: 2%;
+    
+}
+
+
+.city {
+    color: hsl(75, 94%, 57%);
+}
+
+.job {
+    color: hsl(0, 0%, 100%);
+}
+
+
+.link-item {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+li {
+    list-style-type: none;
+
+}
+
+ul {
+    padding-left: 0;
+}
+
+.icon {
+    size: 20%; /* ?? */
+    margin-top: 30px;
+}
+
+.icon-img {
+    border-radius: 50%;
+   
+
+}
+
+
+button {
+    width: 100px;
+}
