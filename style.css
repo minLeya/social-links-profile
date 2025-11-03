@@ -82,19 +82,24 @@ ul {
     margin-top: -30px;
 }
 
-button {
-    width: 280px;
-    height: 40px;
-    margin-bottom: 10px;
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 5px;
-    border: none;
+.link-item {
+  display: inline-block;
+  width: 280px;
+  height: 40px;
+  margin-bottom: 10px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-button:hover {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 8%);
+.link-item:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
 }
 
 @media(max-width: 480px) {
